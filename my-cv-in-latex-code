@@ -1,0 +1,222 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{helvet}
+\renewcommand{\rmdefault}{phv} % Helvetica
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+\definecolor{lightgrey}{RGB}{230,230,230}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=-0.3em, topsep=0.3em, partopsep=0pt} % Tighter spacing
+\setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=0pt}
+\setlength{\parindent}{-10pt}
+\setlength{\parskip}{6pt}
+\usepackage{titlesec}
+%\titleformat{\section}{\large}{\thesection}{0em}{}
+\setlength{\itemsep}{-0.2em} % Reduces gap between bullet points
+% Custom section formatting
+\titleformat{\section}{\bfseries\fontsize{11}{20}\selectfont}{\thesection}{1em}{}
+
+% Resume part title definition
+%\newcommand\sectionTitle[2]{\section{\texorpdfstring{\color{accentcolor}#2\enspace \textsc{#1}}{#1}}}
+
+\begin{document}
+	\begin{flushleft}
+		% Left-aligned header with icons
+		\noindent
+		{{\fontsize{14}{16}\selectfont F}irstName} {{\fontsize{14}{16}\selectfont L}astName}\\
+		%\textbf{\Large FirstName LastName}\\
+		Place\\ \href{https://linkedin.com/in/linked-in-name}{LinkedIn} | \href{https://github.com/github-name}{GitHub} | 
+		\href{https://wa.me/+91987654321}{+91987654321}\\
+		\href{mailto:my-mail@domain.com}{my-mail@domain.com} \\
+		\fbox{
+			\textit{Notice Period: Available}
+		}\\ [-01em]
+	\end{flushleft}
+	
+	{\centering \Large \textbf{SRE / DevOps CONSULTANT} \par}
+	
+	\vspace{0.5cm}
+	\hrule
+	\vspace{-0.8em}	
+	
+	\vspace{-0.8em}	
+	\section*{{\fontsize{15}{22}\selectfont S}UMMARY} 
+	\vspace{-1em}
+	SRE/DevOps Consultant with 13+ year's diverse experience in IT, including 7+ years leading teams in production support and project delivery. Specializes in DevOps, cloud migrations, system upgrades, and automation. Passionate about DevOps and streamlining manual processes through technology, with a firm belief that \textit{"Any task which can be done manually can also be automated."}
+	
+	My proven track record includes:
+	\begin{itemize}
+		\item Delivered 10+ complex IT projects in SRE/DevOps, Cloud transformation, System upgrades, Database \& Application migration, and SLI/SLO driven automation.
+		\item Led and collaborated effectively with diverse teams of up to 20, including vendors and consultants across India, Hong Kong, China, Taiwan, France, and Morocco. 
+		\item Expert in managing diverse IT infrastructure, including large scale Linux systems, VMs, Containers, firewalls, hardware, Windows, Active Directory, LDAP, DevOps tools, Web Applications, Databases, and networks, ensuring security, scalability, and optimized performance while maintaining the reliability and availability of enterprise-level applications and services.
+		
+		\item Highly technical, hands-on engineering mindset with extensive experience in troubleshooting complex issues across Linux servers, infrastructure, containers, virtualization, web applications, monitoring systems, and databases.
+		\item Recognized for rapidly adopting new technologies, Versatile in open-source tools, CLI, and automation, driving operational excellence with a focus on reliability,security and best practices.
+	\end{itemize}
+	\vspace{-1.8em}
+	\section*{{\fontsize{15}{0}\selectfont T}ECHNICAL SKILLS}
+	\vspace{-1em}
+	\begin{itemize}
+		\item \textbf{DevOps \& CI/CD}: Setup and management of DevOps tools, CI/CD pipelines.\\
+		\colorbox{lightgrey}{\texttt{Jira}} | \colorbox{lightgrey}{\texttt{Jenkins}} |
+		\colorbox{lightgrey}{\texttt{GitLab}} |  \colorbox{lightgrey}{\texttt{Rundeck}} |
+		\colorbox{lightgrey}{\texttt{Flyway}} |
+		\colorbox{lightgrey}{\texttt{Nexus}} | \colorbox{lightgrey}{\texttt{Docker}} | \colorbox{lightgrey}{\texttt{Maven}} | \colorbox{lightgrey}{\texttt{SVN}} |  
+		
+		\item \textbf{Configuration Management and Automation}: Expert in automated mass server provisioning using PXE, Anaconda, and Kickstart. Development of Linux software packages(RPM) and RPM repository management. Customizing Linux OS images (CentOS/Red Hat). Configuration management using Ansible playbooks.
+		
+		\colorbox{lightgrey}{\texttt{RPM}} | \colorbox{lightgrey}{\texttt{PXE}} | \colorbox{lightgrey}{\texttt{ISO}} | \colorbox{lightgrey}{\texttt{Anaconda}} | \colorbox{lightgrey}{\texttt{Kickstart}} |
+		\colorbox{lightgrey}{\texttt{mkisofs}} | \colorbox{lightgrey}{\texttt{YUM}} | \colorbox{lightgrey}{\texttt{DNF}} | \colorbox{lightgrey}{\texttt{Bash}} | \colorbox{lightgrey}{\texttt{Shell Script}} | \colorbox{lightgrey}{\texttt{Python}} | \colorbox{lightgrey}{\texttt{Lua}} | \colorbox{lightgrey}{\texttt{iLO}} | \colorbox{lightgrey}{\texttt{Systemd}} | \colorbox{lightgrey}{\texttt{IaC}} | \colorbox{lightgrey}{\texttt{yaml}} | \colorbox{lightgrey}{\texttt{Ansible}} | \colorbox{lightgrey}{\texttt{Rundeck}}
+		
+		\item \textbf{Virtualization \& Cloud}: Proficient in VMWare, Hyper-V, VirtualBox; skilled in automated VM management. Experienced in Docker, Kubernetes, GCP. Familiar with AWS, and Terraform (IaC)
+		
+		\colorbox{lightgrey}{\texttt{Hyper-V}} | \colorbox{lightgrey}{\texttt{VMware ESXi}} | \colorbox{lightgrey}{\texttt{PowerShell}} | \colorbox{lightgrey}{\texttt{VirtualBox}} | \colorbox{lightgrey}{\texttt{Docker}} | \colorbox{lightgrey}{\texttt{OpenVZ}} | \colorbox{lightgrey}{\texttt{GCP}} | \colorbox{lightgrey}{\texttt{GKE}} | \colorbox{lightgrey}{\texttt{VPC}} | \colorbox{lightgrey}{\texttt{AWS}} | \colorbox{lightgrey}{\texttt{IAM}} | \colorbox{lightgrey}{\texttt{Kubernetes}} | \colorbox{lightgrey}{\texttt{Helm}}
+		
+		\item \textbf{System Administration}: Deep knowledge in Linux systems. Strong skills in OS upgrades, recovery, security patching, P2P/P2V and migrations.
+		
+		\colorbox{lightgrey}{\texttt{RedHat}} | \colorbox{lightgrey}{\texttt{CentOS}} | \colorbox{lightgrey}{\texttt{Ubuntu}} | \colorbox{lightgrey}{\texttt{OpenSUSE}} | \colorbox{lightgrey}{\texttt{Fedora}} | \colorbox{lightgrey}{\texttt{Oracle Linux}} | \colorbox{lightgrey}{\texttt{UNIX}} | \colorbox{lightgrey}{\texttt{Windows}} | \colorbox{lightgrey}{\texttt{HPE Proliant}} | \colorbox{lightgrey}{\texttt{ILO}}
+		
+		\item \textbf{SRE \& Monitoring}: Expert in implementing SLIs, SLOs with robust monitoring systems, logging, alerting systems.
+		
+		\colorbox{lightgrey}{\texttt{Zabbix}} | \colorbox{lightgrey}{\texttt{Prometheus}} | \colorbox{lightgrey}{\texttt{Grafana}} | \colorbox{lightgrey}{\texttt{Nagios}} | \colorbox{lightgrey}{\texttt{Centreon}} | \colorbox{lightgrey}{\texttt{APM}} |
+		\colorbox{lightgrey}{\texttt{ELK Stack}} |
+		
+		
+		\item \textbf{Database Management}: Expert in setup, administration, backup \& recovery, replication management and performance tuning of PostgreSQL Database. Familiar with MySQL, NoSQL, Oracle databases.
+		
+		\colorbox{lightgrey}{\texttt{PostgreSQL}} |  \colorbox{lightgrey}{\texttt{Slony}} | \colorbox{lightgrey}{\texttt{replication}} | \colorbox{lightgrey}{\texttt{backup \& recovery}} |
+		\colorbox{lightgrey}{\texttt{Flyway}} |
+		\colorbox{lightgrey}{\texttt{Oracle}} | \colorbox{lightgrey}{\texttt{MySQL}} |
+		\colorbox{lightgrey}{\texttt{MongoDB}}
+		
+		\item \textbf{Security}: Demonstrated expertise in implementing security policies for Linux , web applications, databases, Windows systems, Cloud platforms, Network, VMWares, DevOps systems.etc
+		
+		\colorbox{lightgrey}{\texttt{pfSense}} | \colorbox{lightgrey}{\texttt{iptables}} | \colorbox{lightgrey}{\texttt{Firewalld}} |
+		\colorbox{lightgrey}{\texttt{SELinux}} |
+		\colorbox{lightgrey}{\texttt{Fail2Ban}} |
+		\colorbox{lightgrey}{\texttt{GPO}} |
+		\colorbox{lightgrey}{\texttt{SonarQube}} |
+		\colorbox{lightgrey}{\texttt{SIEM}} | \colorbox{lightgrey}{\texttt{RBAC}} | \colorbox{lightgrey}{\texttt{BigFix}} | \colorbox{lightgrey}{\texttt{SSH}} | \colorbox{lightgrey}{\texttt{LDAP}} | \colorbox{lightgrey}{\texttt{HTTPS/SSL/TSL}} | \colorbox{lightgrey}{\texttt{Password Vaults}}
+		
+		\item \textbf{Storage \& Networking}: Strong background in storage and networking tools.
+		
+		\colorbox{lightgrey}{\texttt{RAID/LVM}} | \colorbox{lightgrey}{\texttt{NFS/Samba}} | \colorbox{lightgrey}{\texttt{VPN}} | \colorbox{lightgrey}{\texttt{GCP Storage}} | \colorbox{lightgrey}{\texttt{TCP/IP}} |
+		\colorbox{lightgrey}{\texttt{Load Balancers}} |
+		\colorbox{lightgrey}{\texttt{Pfsense}} |
+		\colorbox{lightgrey}{\texttt{HAProxy}} |
+		\colorbox{lightgrey}{\texttt{Proxy}} |
+		\colorbox{lightgrey}{\texttt{Wireshark}} | \colorbox{lightgrey}{\texttt{tcpdump}} | \colorbox{lightgrey}{\texttt{VLANs}}
+		
+		\item \textbf{Application \& Web Servers}: Advanced knowledge in setup and configuration of web applications. \\	\textit{Tools}: 
+		\colorbox{lightgrey}{\texttt{Nginx}} | \colorbox{lightgrey}{\texttt{Apache}} | \colorbox{lightgrey}{\texttt{Tomcat}} | \colorbox{lightgrey}{\texttt{JBoss}} | \colorbox{lightgrey}{\texttt{IBM WebSphere}} |
+		\colorbox{lightgrey}{\texttt{Microsoft IIS}} | \colorbox{lightgrey}{\texttt{Light httpd}} | \colorbox{lightgrey}{\texttt{CUPS}} | \colorbox{lightgrey}{\texttt{Loadbalancer}} |
+		\colorbox{lightgrey}{\texttt{Weblogic}} | \colorbox{lightgrey}{\texttt{ActiveMQ}}
+		
+		\item \textbf{Backup \& Recovery}: Experienced in setup and maintenance of backup \& recovery tools.
+		
+		\colorbox{lightgrey}{\texttt{Veeam}} | \colorbox{lightgrey}{\texttt{Commvault}} | \colorbox{lightgrey}{\texttt{NetBackup}} | \colorbox{lightgrey}{\texttt{RMAN}} | \colorbox{lightgrey}{\texttt{Duplicity}} | \colorbox{lightgrey}{\texttt{pg\_dump/restore}}
+		
+		\item \textbf{Other Utilities \& Skills}: Extensive experience in productivity tools and agile collaboration 
+		\\
+		\colorbox{lightgrey}{\texttt{Tmux}} | \colorbox{lightgrey}{\texttt{Trello}} | \colorbox{lightgrey}{\texttt{Kitty}} | \colorbox{lightgrey}{\texttt{WinScp}} | \colorbox{lightgrey}{\texttt{Filezilla}} | \colorbox{lightgrey}{\texttt{Biotwarden}} | \colorbox{lightgrey}{\texttt{Vim, NeoVim}} | \colorbox{lightgrey}{\texttt{Slack}} | \colorbox{lightgrey}{\texttt{Grok}} | \colorbox{lightgrey}{\texttt{ChatGPT}} | \colorbox{lightgrey}{\texttt{Copilot}} | \colorbox{lightgrey}{\texttt{twiki}} | \colorbox{lightgrey}{\texttt{RDP}}
+	\end{itemize} \vspace{-1.8em}
+	
+	\section*{{\fontsize{15}{0}\selectfont M}AIN EXPERIENCES} \vspace{-1em}
+	\textbf{Independant Consultant}\\ 
+	\textit{DevOps/SRE Consultant} \hfill June 2023 - Present
+	
+	\textit{Responsibilities:}
+	\begin{itemize}
+		\item Design and manage CI/CD pipelines for seamless deployment and operations.
+		\item Implement monitoring, security best practices, and incident management for reliable systems
+		\item Provide technical support, maintain documentation, and conduct training workshops
+	\end{itemize}
+	
+	\textit{Key projects:}
+	\begin{itemize} \item DEV, UAT, SIT environments setup using Tanzu Kubernetes Grid (TKG).
+		\item Deployed a robust monitoring system with Grafana, Prometheus, and Zabbix to track real-time SLIs (e.g., application availability, server latency, network throughput) for a big data platform (Linux servers, PostgreSQL, Spark, Kafka, Hadoop), ensuring adherence to SLOs like 99.95\% uptime and sub-200ms query response times.
+		\item Upgraded PostgreSQL from version 9 to 15 and performed a cloud migration.
+	\end{itemize}
+	
+	\textbf{Carrefour} \hfill \textit{Kowloon Bay, Hong Kong} \\
+	\textit{IT - Infrastructure \& Technical Manager / Technical Analyst} \hfill Mar 2018 - Jan 2023
+	
+	\textit{Responsibilities:}
+	\begin{itemize}
+		\item Implemented DevOps practices, CI/CD, ensuring security compliance and overseeing scalable, cost-effective infrastructure across cloud and on-premise environments using Infrastructure as Code (IaC).
+		\item Managed diverse IT infrastructure, including Linux, Windows, VMs, Containers, Kubernetes, firewalls, hardware, and networks, ensuring security, scalability, and optimized performance while maintaining enterprise-level reliability and availability. Applied ITIL best practices to streamline incident response, root cause analysis, and change management, ensuring efficient service delivery and minimal downtime.
+		\item Managed a team of 10-20 engineers while leading cross-functional collaboration with vendors, stakeholders, and business users across across Hong Kong, China, Taiwan, India \& France. Ensured high-quality, on-time technical solution delivery by overseeing BAU operations, Level 4 troubleshooting, incident management, and strategic decision-making to align IT infrastructure with business goals.
+		\item Facilitated the establishment of a new technical team in Taiwan while streamlining knowledge transfer, documentation, and operational procedures
+	\end{itemize}
+	
+	\textbf{KEY PROJECTS:}\\
+	\textit{Across the following projects, my contributions include hands-on expertise in automation, coding, and support, along with end-to-end project execution. Collaborated with Developers, Analysts, QA, Vendors, DevOps, Support teams, and Business users deliver the budget-complaint projects on time}
+	\begin{enumerate}
+		\item \textbf{Legacy Server Revamp} - Automated and standardized infrastructure configuration across 600+ CentOS/RHEL servers and various software (tomcat,ActiveMQ,Slony,Postgresql,CUPS.etc) via IaC, RPM, and Ansible, ensuring security, uniformity, and maintainability.
+		\item \textbf{Server Consolidation \& Migration} - Migrated 4 retail applications per store onto a single physical server using P2V techniques across 300+ servers, leveraging automated scripts and PostgreSQL WAL migration. Virtualization improved memory utilization, boosted application performance, and simplified management, backup, and recovery. 
+		\item \textbf{Server and Application Upgrade} - Upgraded 300+ servers from legacy CentOS versions to CentOS 7, along with Tomcat, ActiveMQ, and PostgreSQL updates, enhancing security, performance, and uniformity across the system
+		\item \textbf{Virtualization \& Containerization} - Accelerated provisioning via IaC, containers (Docker/K8s), optimizing resource use and consistency.
+		\item \textbf{DevOps \& CI/CD Transformation} - Implemented CI/CD pipelines for 3 retail applications, automated deployments and database migrations using Git, Jenkins, Jira, Nexus, Rundeck, Docker, and Flyway. Enhanced deployment speed, reliability, and rollback efficiency, reducing downtime, improving application uptime, and cutting operational costs.
+		\item \textbf{Automation for Taiwan Business Expansion} - Automated store server provisioning for Carrefour Taiwan's acquisition of 224 stores, \textbf{reducing setup time from 2 days to 1-2 hours.} This streamlined process ensured rapid scaling, timely store openings, and enhanced system reliability.
+		\item \textbf{Security Hardening} - Strengthened system security by implementing IAM policies, HTTPS migration, password vaults, SSH key authentication, firewall rules, malware protection, and SIEM for real-time threat detection. Compliance with ISO 27001 further improved resilience against vulnerabilities
+		\item \textbf{Monitoring System Modernization} - Enhanced monitoring infrastructure using Zabbix, Prometheus, and Grafana, increasing SLI health checks from under 100 to over 1,000. Transitioned from on-premises batch monitoring to scalable solutions, boosting alerting, visibility, and reporting to meet SLOs for system reliability and performance.
+		\item \textbf{Cloud Transformation \& Migration} - Migrated 6 production applications, over 10 internal IT systems, and a big data platform from on-premises infrastructure to Google Cloud, improving scalability, security, and disaster recovery. Replaced F5 firewalls with Nginx, modernized big data architecture using Kubernetes, and optimized cloud resource allocation and cost management using GCP IAM, Kubernetes, and automated scaling strategies, reducing operational expenses.
+		\item \textbf{IT Support Automation} - Automated IT support tasks to reduce manual workload and resolution time. Implemented system diagnostics, auto-recovery, and user-friendly dashboards with Zabbix. Developed automated recovery solutions for common problems, streamlined alerting, batch job recovery, and database maintenance using Rundeck and shell scripting. Enhanced log analysis and automated routine maintenance for 600+ servers, improving reliability and productivity.
+	\end{enumerate}
+	\newpage
+	
+	\textbf{UST Global} \hfill \textit{Trivandrum, India} \\
+	\textit{Technical Team Lead} \hfill June 2016 - Feb 2018
+	
+	\textit{Achievements:}
+	\begin{itemize}
+		\item Established and led a high-performing monitoring and Level 2 support team, enhancing operational efficiency and problem-solving capabilities
+		\item Managed daily operations, production releases, and change requests while optimizing support processes to meet KPIs
+		\item Provided technical support for diverse systems, troubleshooting escalated issues, and ensuring disaster recovery for uninterrupted service
+		\item Automated reports, setup monitoring tools, ticketing systems, and batch job recovery, significantly improving productivity and reducing resolution times
+		\item Conducted technical training, maintained documentation, and proposed continuous improvements for system enhancements
+	\end{itemize}
+	
+	\textbf{Ericsson} \hfill \textit{Bangalore, India} \\
+	\textit{Software Integration Engineer} \hfill Feb 2016 - Apr 2016
+	
+	\begin{itemize}
+		\item Manage installation, configuration, and maintenance of UAT, Development, and Production environments while overseeing BSCS application, server, and database administration, along with deployment and migration support
+	\end{itemize}
+	
+	\textbf{Wipro} \hfill \textit{New Delhi, India} \\
+	\textit{L2 Production Support Engineer} \hfill Oct 2012 - Jan 2016
+	
+	\begin{itemize}
+		\item Provided Level 2 support for a high-profile telecom project, ensuring 99.99\% SLA uptime through Oracle DB and WebLogic ESB administration, overseeing 24/7 monitoring and automation, and supporting deployments for MNP, SIM activation, AMT, and 3G rollouts.
+	\end{itemize} \vspace{-1.8em}
+	
+	%\section*{\vspace{-0.8em}{EDUCATION}}
+	\section*{{\fontsize{15}{0}\selectfont E}DUCATION} \vspace{-1em}
+	Electronics \& Communication Engineering | Department of Technical Education, Govt. of Kerala | 2012\vspace{-1em}
+	
+	%\section*{\vspace{-0.8em}{ACHIEVEMENTS \& AWARDS}}
+	\vspace{-0.6em}
+	\section*{{\fontsize{15}{0}\selectfont A}CHIEVEMENTS \& AWARDS} \vspace{-1em}
+	\begin{itemize}
+		\item Rapid career progression to Technical Manager in 6 years through roles as Technical Analyst, Team Lead, and L2 Support
+		\item Mentored 50+ engineers in technical and professional development
+		\item UST award for outstanding contribution – 2017
+		\item Recognized by Wipro (2013-2016) with 5 performance awards including:
+		\begin{itemize}
+			\item Best Execution Mindset (2016)
+			\item Consistent Performer (2015)
+			\item Outstanding performance (2014)
+			\item Aircel Achievement Award (2014)
+			\item Outstanding contribution (2013)
+		\end{itemize}
+		\item Wipro certified in Linux Administration, Oracle SQL/PLSQL, Shell Scripting , and Perl Programming, WebLogic Administration
+	\end{itemize}
+	
+	\textbf{LANGUAGES} : English (Fluent), Malayalam(Fluent), Hindi (Fluent), Tamil(Fluent), Kannada(Intermediate)
+	
+\end{document}
