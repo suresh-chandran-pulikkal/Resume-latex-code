@@ -71,4 +71,4 @@ git commit -m "Updated resume content"
 git push
 ```
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Non commercial License - see the LICENSE-NC file for details.
